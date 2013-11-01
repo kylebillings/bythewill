@@ -1,6 +1,30 @@
 body {
-  background-color: #9b59b6;
+  background-color: #fcfcfc;
   text-align: center;
-  color: white;
+  color: #9b59b6;
 }
 
+h1 {
+	font-size: 6em;
+}
+
+#title {
+	margin-top:100px;
+	margin-bottom: 50px;
+}
+
+#name {
+	margin-bottom: 40px;
+}
+
+#mc-embedded-subscribe {
+	background-color: #9b59b6;
+	border: none;
+	color: #fcfcfc;
+	padding: 10px 25px 10px 25px;
+	font-size: 1.5em;
+}
+
+#mc-embedded-subscribe:hover {
+	background-color: red;
+}
