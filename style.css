@@ -18,6 +18,10 @@ h1 {
 	margin-bottom: 40px;
 }
 
+#mc_embed_signup {
+	text-align: center;
+}
+
 #mc-embedded-subscribe {
 	border: none;
 	background-color: #c0392b;
