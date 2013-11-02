@@ -2,6 +2,7 @@ body {
   background-color: #fcfcfc;
   text-align: center;
   color: #9b59b6;
+  font-family: "Cabin" !important;
 }
 
 h1 {
@@ -15,16 +16,4 @@ h1 {
 
 #name {
 	margin-bottom: 40px;
-}
-
-#mc-embedded-subscribe {
-	background-color: #9b59b6;
-	border: none;
-	color: #fcfcfc;
-	padding: 10px 25px 10px 25px;
-	font-size: 1.5em;
-}
-
-#mc-embedded-subscribe:hover {
-	background-color: red;
 }
