@@ -2,11 +2,11 @@ body {
   background-color: #fcfcfc;
   text-align: center;
   color: #9b59b6;
-  font-family: "Cabin" !important;
 }
 
 h1 {
 	font-size: 6em;
+	font-family: "PT Sans";
 }
 
 #title {
@@ -16,4 +16,30 @@ h1 {
 
 #name {
 	margin-bottom: 40px;
+}
+
+#mc-embedded-subscribe {
+	border: none;
+	background-color: #9b59b6;
+	color: #fcfcfc;
+	padding: 5px 15px 5px 15px;
+}
+
+#mc-embedded-subscribe:hover {
+	background-color: #8e44ad;
+}
+
+#description {
+	margin-top: 340px;
+	background-color: #9b59b6;
+	color: #fcfcfc;
+	text-align: left;
+	padding: 30px;
+	padding-top:100px;
+	padding-bottom:100px;
+	font-family: "PT Sans";
+}
+
+p {
+	font-size: 1.2em;
 }
