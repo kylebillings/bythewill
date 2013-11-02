@@ -57,3 +57,7 @@ p {
 #topbutton:hover {
 	background-color: #7d180e;
 }
+
+#title input {
+	max-width: 206px;
+}
