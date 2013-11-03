@@ -55,7 +55,7 @@ p {
 	font-size: 1.2em;
 }
 
-#topbutton {
+.topbutton {
 	margin: auto;
 	margin-top: 30px;
 	background-color: #8e44ad;
@@ -66,7 +66,7 @@ p {
 	width: 206px;
 }
 
-#topbutton:hover {
+.topbutton:hover {
 	background-color: #551670;
 }
 
@@ -75,11 +75,12 @@ p {
 }
 
 #signup {
+	color: #333;
 	padding-top: 60px;
 }
 
 #footer {
-	margin-top: 200px;
+	margin-top: 230px;
 	padding:10px;
 	background-color: #8e44ad;
 }
