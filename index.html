@@ -3,9 +3,25 @@
   <title>By The Will | Relevant Advertisements By Request</title>
   <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script>
+  $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+  </script>
   <script src="js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" type="text/css" href="style.css" />
   
 <style type="text/css">
@@ -29,6 +45,7 @@
 	<div class="row-fluid">
 		<div class="span6">
 	<p>Advertisers spend a fortune trying to reach you with relevant advertisements. In the end, a mere fraction mean anything to you. <br/><br/>But there's money on the table. At any given moment, there are products and services we're willing to pay for. If you could make requests, advertisers could spend time and money finding great deals for you instead of following a trail of cookies.<br/><br/><strong>By The Will</strong> is creating a channel for communication between buyers and advertisers. Simply create a list of products, services, events, interests, etc. and we'll deliver your requests to sellers across the Internet. Then they'll be able to send you valuable and relevant offers. Everybody wins!<br/><br/>Advertising 2.0 is on the horizon. It simply takes conversation.</p>
+	<a href="#signup"><button id="topbutton">I'm Ready</button></a>
 		</div>
 		<div class="span6">
 			<img src="http://www.vertigoal.com/blog/wp-content/uploads/2012/08/IT-help-desk-happy-computer-user.jpg"/>
