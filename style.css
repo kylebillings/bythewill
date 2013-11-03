@@ -1,7 +1,7 @@
 body {
   background-color: #fcfcfc;
   text-align: center;
-  color: #8e44ad;
+  color: #551670;
 }
 
 h1 {
@@ -31,18 +31,18 @@ h1 {
 
 #mc-embedded-subscribe {
 	border: none;
-	background-color: #8e44ad;
+	background-color: #551670;
 	color: #fcfcfc;
 	padding: 5px 15px 5px 15px;
 }
 
 #mc-embedded-subscribe:hover {
-	background-color: #551670;
+	background-color: #350749;
 }
 
 #description {
 	margin-top: 340px;
-	background-color: #8e44ad;
+	background-color: #551670;
 	color: #fcfcfc;
 	text-align: left;
 	padding: 30px;
@@ -58,7 +58,7 @@ p {
 #topbutton {
 	margin: auto;
 	margin-top: 30px;
-	background-color: #8e44ad;
+	background-color: #551670;
 	padding: 20px 45px 20px 45px;
 	color: #fcfcfc;
 	border: 1.5px solid #fcfcfc;
@@ -67,7 +67,7 @@ p {
 }
 
 #topbutton:hover {
-	background-color: #551670;
+	background-color: #350749;
 }
 
 #title input {
@@ -82,7 +82,7 @@ p {
 #footer {
 	margin-top: 230px;
 	padding:10px;
-	background-color: #8e44ad;
+	background-color: #551670;
 }
 
 .shrink {
