@@ -1,7 +1,7 @@
 body {
   background-color: #fcfcfc;
   text-align: center;
-  color: #c0392b;
+  color: #8e44ad;
 }
 
 h1 {
@@ -14,24 +14,35 @@ h1 {
 	margin-bottom: 50px;
 }
 
+#titlelogo{
+	margin-bottom: 30px;
+	margin-top:0px;
+	width: 30%;
+	min-width: 377px;
+}
+
 #name {
-	margin-bottom: 40px;
+	margin-bottom: 28px;
+}
+
+#tag {
+	margin-top: 28px;
 }
 
 #mc-embedded-subscribe {
 	border: none;
-	background-color: #c0392b;
+	background-color: #8e44ad;
 	color: #fcfcfc;
 	padding: 5px 15px 5px 15px;
 }
 
 #mc-embedded-subscribe:hover {
-	background-color: #7d180e;
+	background-color: #551670;
 }
 
 #description {
 	margin-top: 340px;
-	background-color: #c0392b;
+	background-color: #8e44ad;
 	color: #fcfcfc;
 	text-align: left;
 	padding: 30px;
@@ -47,7 +58,7 @@ p {
 #topbutton {
 	margin: auto;
 	margin-top: 30px;
-	background-color: #c0392b;
+	background-color: #8e44ad;
 	padding: 20px 45px 20px 45px;
 	color: #fcfcfc;
 	border: 1.5px solid #fcfcfc;
@@ -55,9 +66,14 @@ p {
 }
 
 #topbutton:hover {
-	background-color: #7d180e;
+	background-color: #551670;
 }
 
 #title input {
 	max-width: 206px;
+}
+
+#signup {
+	padding-top: 100px;
+	min-height: 700px;
 }
